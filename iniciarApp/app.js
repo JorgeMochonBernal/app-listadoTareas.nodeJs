@@ -2,7 +2,6 @@
 	const colors = require('colors');
 	const argv = require('./../config/yargs.js').argv;
 	const porHacer = require('./../por-hacer/por_hacer');
-	console.log(porHacer.getListado());
 
 	let comando = argv._[0];
 
